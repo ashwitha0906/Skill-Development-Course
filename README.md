@@ -10,7 +10,7 @@ Each folder contains code and files for a specific experiment, named accordingly
 
 ---
 
-## 📚 What You’ll Learn
+## What You’ll Learn
 
 - **Frontend Development**
 - Responsive Web Design
@@ -26,7 +26,7 @@ Each folder contains code and files for a specific experiment, named accordingly
 
 ---
 
-## 🧪 List of Experiments & Technologies Used
+## List of Experiments & Technologies Used
 
 | S.No | Experiment                 | Description                              | Technology                     |
 |------|----------------------------|------------------------------------------|--------------------------------|
@@ -49,7 +49,7 @@ Each folder contains code and files for a specific experiment, named accordingly
 
 ---
 
-## ⚙️ How to Use This Repository
+## How to Use This Repository
 
 ### 1. Clone the Repository
 ```bash
@@ -70,7 +70,7 @@ Use VS Code or any IDE of your choice to explore each folder.
 
 ---
 
-## 🔗 External Tools & APIs Used
+## External Tools & APIs Used
 
 * [OpenWeatherMap.org](https://openweathermap.org/) – For real-time weather data
 * [Chart.js](https://www.chartjs.org/) – For data visualization
@@ -79,7 +79,7 @@ Use VS Code or any IDE of your choice to explore each folder.
 
 ---
 
-## 👤 Author
+## Author
 
 **V. Ashwitha**
 
@@ -87,7 +87,7 @@ Passionate about full-stack development and building impactful projects with mod
 
 ---
 
-## 🧭 Suggestions
+## Suggestions
 
 * **Beginners**: Start with Experiments **1–4** to get comfortable with HTML/CSS/JS
 * **Intermediate**: Try Experiments **5–10** to build your backend skills
@@ -95,10 +95,8 @@ Passionate about full-stack development and building impactful projects with mod
 
 ---
 
-## 📝 License
+## License
 
 This repository is open for **learning and educational use**.
-
-```
 
 ---
