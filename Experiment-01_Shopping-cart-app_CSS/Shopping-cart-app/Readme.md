@@ -1,85 +1,80 @@
 ---
 
-## **Program 2 - Make the above web application responsive web application using Bootstrap framework** 
+## **Program 1 - Responsive Shopping Cart Web Application** 
 
 ---
 
-### **Overview**
+### **AIM**
 
-**ShoppingCartApp** is a web-based payment system that allows users to pay by credit card. This version of the application has been made responsive using the Bootstrap framework, ensuring a seamless experience across various devices.
+To create a responsive shopping cart web application using **CSS3**, **Flexbox**, and **Grid** for layout design.
 
 ---
 
-### **Features**
+### **DESCRIPTION**
 
-•Responsive design using Bootstrap 5
+This application allows users to register, log in, browse a product catalog, add items to the shopping cart, and view the cart contents. It utilizes CSS3 features such as **Flexbox** and **Grid** for responsive layouts and ensures that the application is **mobile-friendly** and adjusts seamlessly to different screen sizes.
 
-•Credit card payment form with fields for cardholder name, card number, expiration date, and CVV
-
-•Modern and clean UI
-
-•Mobile-friendly layout
 ---
 
-### **File Structure**
+### **Project Structure**
 
 ```
 ShoppingCartApp/
 │── public/
-│ ├── css/
-│ │ ├── paybycreditcard.css
-│ ├── html/
-│ │ ├── paybycreditcard.html
+│   ├── css/
+│   │   ├── utils.css        # Styles for the navigation bar
+│   │   ├── index.css        # Styles for catalog items
+│   │   ├── cart.css         # Styles for the shopping cart page
+│   │   ├── login.css        # Styles for the login page
+│   │   ├── register.css     # Styles for the registration page
+│   ├── images/              # Folder for storing images
+│   ├── js/
+│   │   └── script.js        # Main JavaScript file
+│   ├── html/
+│   │   ├── index.html       # Main HTML file
+│   │   ├── cart.html        # Shopping cart page
+│   │   ├── login.html       # Login page
+│   │   ├── register.html    # Registration page
+│── server.js                # Node.js Express server
+│── package.json             # Project dependencies and scripts
+│── README.md                # Project documentation
 ```
 
 ---
 
-### **Technologies Used**
+### **Installation & Setup**
 
-* **HTML5**
-* **CSS3**
-* **Bootstrap 5**
+#### **Prerequisites**
 
----
+• Install **Node.js** and **npm**
 
-### **Setup Instructions**
+#### **Steps to Run the Project**
 
-1. **Clone the repository**:
+1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ashwitha0906/Skill-Development-Course/Experiment-02_Shopping-cart-app_Bootstrap/ShoppingCartApp.git
+   git clone https://github.com/swayamprakashm/Skill-Development-Lab/Experiment-01_Shopping-cart-app_CSS/Shopping-cart-app.git
    ```
-
-2. **Navigate to the HTML directory**:
+2. Navigate to the project directory:
 
    ```bash
-   cd ShoppingCartApp/public/html
+   cd shopping-cart
    ```
+3. Install dependencies:
 
-3. **Open the payment form in a web browser**:
+   ```bash
+   npm install
+   ```
+4. Run the server:
+
+   ```bash
+   node server.js
+   ```
+5. Open your browser and visit:
 
    ```
-   paybycreditcard.html
+   http://localhost:3000
    ```
-
----
-
-### **How to Use**
-
-1. Enter the **Cardholder's Name**, **Card Number**, **Expiration Date**, and **CVV**.
-2. Click the **Pay Now** button to simulate payment processing.
-
----
-
-### **Bootstrap Integration**
-
-The **Bootstrap 5** framework is linked via CDN in the `<head>` of `paybycreditcard.html`:
-
-```html
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-```
-
-This ensures responsive grids, form controls, buttons, and layout utilities are available out of the box.
 
 ---
 
